@@ -6,6 +6,9 @@ body {
 
 header {
     font-weight: 700;
+    position: absolute;
+    width: 100%;
+    z-index: 3; /*z-index=重なり順 数字が大きいほど前に来る*/
 }
 header .container {
     max-width: 1080px; /*最大横幅*/
