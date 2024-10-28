@@ -29,3 +29,10 @@ header ul li{
     font-size: 14px;
     letter-spacing: 1px; /*文字と文字の隙間 → A b o u t*/
 }
+
+.section1 {
+    background-image: url(https://gohan-desu.github.io/icpcyuhifes.github.io/images/israel-andrade-YI_9SivVt_s-unsplash.jpg);
+    background-position:center bottom;
+    background-size: cover;
+    height: 100vh; /*vh=画面幅　縦の画面幅いっぱいに設定*/
+}
