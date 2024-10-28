@@ -3,3 +3,12 @@ body {
     color: #ffffff;
     background-color: #16161a;
 }
+
+header {
+    font-weight: 700;
+}
+header .container {
+    max-width: 1080px; /*最大横幅*/
+    width: 90%; 
+    margin: 0 auto; /*中央にする*/
+}
