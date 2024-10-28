@@ -1,5 +1,5 @@
 body {
-    font-family: 'Zen Gothic New', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
     color: #ffffff;
     background-color: #16161a;
 }
@@ -11,4 +11,21 @@ header .container {
     max-width: 1080px; /*最大横幅*/
     width: 90%; 
     margin: 0 auto; /*中央にする*/
+}
+header .row{
+    display: flex; /*横並びにする*/
+    justify-content: space-between; /*両端に寄せる*/
+    align-items: center; /*上下中央配置*/
+    height: 60px; /*ヘッダーの高さ*/
+}
+header .logo{
+    font-size: 24px; 
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 30px; /*ul中のliに左スペース配置*/
+    font-size: 14px;
+    letter-spacing: 1px; /*文字と文字の隙間 → A b o u t*/
 }
