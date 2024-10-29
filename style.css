@@ -281,3 +281,12 @@ header ul li{
 .section5 input[type=submit]:hover{
     background-color: #2cb67d;
 }
+
+.footer{
+    background-color: #ffffff;
+    text-align: center;
+    columns: #161616;
+    font-size: 11px;
+    letter-spacing: 1px; /*文字幅*/
+    padding: 20px 0;
+}
