@@ -95,6 +95,8 @@ header ul li{
     background-color: #2cb67d;
 }
 
+
+
 .section2{
     margin-bottom: 45px;
 }
@@ -141,4 +143,44 @@ header ul li{
 .section2 .text{
     font-size: 15px;
     line-height: 1.5; /*行間を1.5*/
+}
+
+
+.section3{
+    padding-top: 45px; /*上に余白*/
+    margin-bottom: 60px; /*下に余白*/
+}
+
+.section3 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto; /*中央寄せ*/
+}
+
+.section3 .row{
+    display: flex; /*横並び*/
+    justify-content: space-between; /*両端寄せ*/
+    flex-wrap: wrap;
+    align-items: center; /*上下中央による*/
+    margin-bottom: 60px;
+}
+.section3 .col{
+    width: 46%; /*横並び　左４６％　真ん中８％　右４６％*/
+}
+
+.section3 h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: 1.3; /*行間*/
+}
+
+.section3 hr{
+    border: solid 2px #2cb67d;
+    margin-bottom: 20px;
+    width: 60px; /*横幅*/
+}
+
+.section3 .text{
+    line-height: 1.5; /*行間*/
 }
