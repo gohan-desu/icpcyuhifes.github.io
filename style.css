@@ -290,3 +290,21 @@ footer{
     letter-spacing: 1px; /*文字幅*/
     padding: 20px 0;
 }
+
+/*スマホ対応させる*/
+@media screen and (max-width: 767px){
+    .section1 .container{
+        width: 98%;
+    }
+    .section1 .h1{
+        font-size: 27px;
+    }
+    .section2 .col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section3 .col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
