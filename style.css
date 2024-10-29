@@ -208,12 +208,12 @@ header ul li{
     width: 60px;
 }
 
-.section ul{
+.section4 ul{
     max-width: 700px;
     margin: 0 auto;
 }
 
-.section li{
+.section4 li{
     border: solid 1px #ffffff;
     margin-bottom: 20px;
     padding: 16px 24px;
@@ -243,7 +243,7 @@ header ul li{
 }
 .section5 hr{
     border: solid 2px #2cb67d;
-    margin: 0 auto 4opx;
+    margin: 0 auto 40px;
     width: 60px;
 }
 
@@ -285,7 +285,7 @@ header ul li{
 footer{
     background-color: #ffffff;
     text-align: center;
-    columns: #161616;
+    color: #161616;
     font-size: 11px;
     letter-spacing: 1px; /*文字幅*/
     padding: 20px 0;
