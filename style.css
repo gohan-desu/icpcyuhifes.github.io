@@ -136,4 +136,9 @@ header ul li{
 .section2 hr{
     border: solid 2px #2cb67d;
     margin-bottom: 16px;
+    width: 48px; /*棒を短くする*/
+}
+.section2 .text{
+    font-size: 15px;
+    line-height: 1.5; /*行間を1.5*/
 }
