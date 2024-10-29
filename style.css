@@ -263,7 +263,7 @@ header ul li{
     display: block;
     width: 100%; /*input=display:blockに加えてwidthで横幅100%*/
     padding: 13px 16px; /*上下に13px 左右に16pxの余白*/
-    margin-bottom: 300px;
+    margin-bottom: 30px;
     color: #16161a;
 }
 
