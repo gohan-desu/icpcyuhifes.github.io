@@ -94,3 +94,30 @@ header ul li{
 .section1 a:hover{ /*カーソルを当てたときの効果*/
     background-color: #2cb67d;
 }
+
+.section2{
+    margin-bottom: 45px;
+}
+
+.section2 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: auto; /*中央寄せ*/
+}
+
+.section2 .row{
+    display: flex; /*横並びにする*/
+    justify-content: space-between; /*左右均等*/
+    flex-wrap: wrap; /*横に収まりきらないときは縦並び*/
+    transform: translateY(-48px); /*section2の開始位置より48px上にはみ出す*/
+    z-index: 2; /*z-indexはポジションがないと効かない*/
+    position: relative;
+}
+
+.section2 .col{
+    background-color: #ffffff;
+    width: 32%; /*横幅*/
+    color: #16161a;
+    padding: 20px; /*上下に余白*/
+
+}
