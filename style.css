@@ -225,3 +225,59 @@ header ul li{
     letter-spacing: 1px; /*文字幅*/
     margin-bottom: 6px;
 }
+
+.section5{
+    padding-top: 60px;
+    margin-bottom: 130px;
+}
+.section5 .container{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+}
+.section5 .h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section5 hr{
+    border: solid 2px #2cb67d;
+    margin: 0 auto 4opx;
+    width: 60px;
+}
+
+.section5 form{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.section5 label{
+    display: block; /*横方向１００％*/
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.section5 input, .section5 textarea{
+    background-color: #ffffff;
+    display: block;
+    width: 100%; /*input=display:blockに加えてwidthで横幅100%*/
+    padding: 13px 16px; /*上下に13px 左右に16pxの余白*/
+    margin-bottom: 300px;
+    color: #16161a;
+}
+
+.section5 input[type=submit] {
+    text-align: center;
+    background-color: #7f5af0;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 16px 22px;
+    letter-spacing: 6px;
+    border-radius: 6px;
+    transition-duration: .2s;
+}
+
+.section5 input[type=submit]:hover{
+    background-color: #2cb67d;
+}
