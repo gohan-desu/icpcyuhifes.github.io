@@ -195,25 +195,25 @@ header ul li{
     margin: 0 auto;
 }
 
-.section4 .h2{
+.section4 h2{
     font-size: 28px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.section4 .hr{
+.section4 hr{
     border: solid 2px #2cb67d;
     margin: 0 auto 40px;
     width: 60px;
 }
 
-.section .ul{
+.section ul{
     max-width: 700px;
     margin: 0 auto;
 }
 
-.section .li{
+.section li{
     border: solid 1px #ffffff;
     margin-bottom: 20px;
     padding: 16px 24px;
@@ -235,7 +235,7 @@ header ul li{
     width: 90%;
     margin: 0 auto;
 }
-.section5 .h2{
+.section5 h2{
     font-size: 28px;
     font-weight: 700;
     text-align: center;
